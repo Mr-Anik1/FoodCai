@@ -1,0 +1,155 @@
+/* || SHIMMER WHEN PAGE IS LOADING || */
+.shimmer-body {
+  margin: 1rem 3rem;
+}
+
+.shimmer-top-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.shimmer-rating {
+  padding: 1.1rem;
+  border: 3px solid #edf1ef;
+  border-radius: 0.6rem;
+  width: 4rem;
+  background-color: #fff;
+  animation: search-animation 1s infinite linear;
+}
+
+.shimmer-search-body {
+  display: flex;
+  gap: 0.3rem;
+}
+
+.shimmer-search,
+.shimmer-search-btn {
+  padding: 1.3rem;
+  border: 3px solid #eaebea;
+  background-color: #fff;
+  border-radius: 2rem;
+  animation: search-animation 1s infinite linear;
+}
+
+.shimmer-search {
+  width: 17rem;
+}
+
+.shimmer-search-btn {
+  width: 5rem;
+}
+
+.shimmer-restaurant-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.5rem;
+  justify-items: center;
+  align-items: start;
+  margin: 2rem 0;
+  width: 100%;
+}
+
+/* Shimmer effect for Restaurant Cards */
+.shimmer-card {
+  width: 220px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+.shimmer-img {
+  width: 100%;
+  height: 150px;
+  background: linear-gradient(
+    to right,
+    rgba(219, 152, 7, 0.1) 0%,
+    rgba(4, 194, 61, 0.3) 55%,
+    rgba(114, 9, 212, 0.1) 100%
+  );
+  background-size: 1000px 100%;
+}
+
+.shimmer-text {
+  padding: 1rem;
+}
+
+.shimmer-line {
+  width: 100%;
+  height: 1.4rem;
+  margin-bottom: 10px;
+  background: linear-gradient(
+    to right,
+    rgba(80, 85, 79, 0.1) 0%,
+    rgba(9, 243, 126, 0.3) 50%,
+    rgba(164, 11, 211, 0.1) 100%
+  );
+  background-size: 1000px 100%;
+  animation: shimmer-text-animation 1s infinite linear;
+}
+
+@keyframes shimmer-text-animation {
+  0% {
+    background-color: rgb(160, 174, 177);
+  }
+  55% {
+    background-color: rgb(108, 129, 109);
+  }
+  100% {
+    background-color: rgb(63, 92, 68);
+  }
+}
+
+@keyframes search-animation {
+  0% {
+    border: 3px solid #eaebea;
+    background-color: #fff;
+  }
+  100% {
+    background: linear-gradient(
+      to right,
+      rgba(80, 85, 79, 0.1) 0%,
+      rgba(123, 224, 174, 0.3) 50%,
+      rgba(245, 114, 217, 0.1) 100%
+    );
+  }
+}
+
+/* || Shimmer - RestaurantMenu || */
+.restaurant-shimmer-body {
+  margin: 3rem 6rem;
+}
+
+.restaurant-shimmer-menu-card {
+  display: flex;
+  justify-content: space-between;
+  gap: 5rem;
+  width: 100%;
+  margin: 0 0 6rem 0;
+  background-color: rgb(250, 248, 248);
+  border-radius: 8px;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+.restaurant-shimmer-menu-card img {
+  height: 100%;
+  width: 13rem;
+}
+
+.restaurant-shimmer-menu-card-text {
+  height: 10rem;
+}
+
+.restaurant-shimmer-menu-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+  width: 100%;
+  height: 4rem;
+  border-radius: 8px;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.25);
+}
