@@ -151,3 +151,5 @@ npm install -g firebase-tools
   ```
 
 ### It must be remembered that before you deploy your project, you have to build your project with this command: `npm run build`.
+
+Hosting URL: `https://foodcai-c83e9.web.app`
