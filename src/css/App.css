@@ -22,8 +22,8 @@ body {
 }
 
 .logo img {
-  height: 40px;
-  width: auto;
+  height: 3rem;
+  width: 6rem;
 }
 
 .nav-list {
@@ -722,6 +722,10 @@ body {
     border-radius: 0.7rem;
   }
 
+  .menu-item-card {
+    margin: 2rem 6rem;
+  }
+
   .about {
     margin: 2rem 3rem;
     padding: 1.6rem;
@@ -816,6 +820,39 @@ body {
   .about-content {
     padding: 1rem 2rem;
   }
+
+  .clear-cart {
+    padding: 0.3rem 0.6rem;
+  }
+
+  .cart-card-container {
+    margin: 1.5rem;
+  }
+
+  .restaurant-list {
+    gap: 0.3rem;
+    margin: 1rem 0;
+  }
+
+  .menu-card {
+    margin: 1.5rem 1.5rem 4rem 1.5rem;
+  }
+
+  .menu-card.menu-item-card {
+    margin: 2rem 3rem;
+  }
+
+  .menu-header {
+    font-size: 1.3rem;
+  }
+
+  .cart-items-tag {
+    font-size: 1.5rem;
+  }
+
+  .clear-cart {
+    font-size: 1rem;
+  }
 }
 
 @media only screen and (max-width: 368px) {
@@ -839,6 +876,10 @@ body {
 
   .menu-body {
     margin: 2rem 2rem;
+  }
+
+  .menu-item-card {
+    margin: 2rem 2.5rem;
   }
 
   .cart-card-container {
